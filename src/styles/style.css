@@ -4,6 +4,7 @@
   --color-text-category: #b4ad9e;
   --color-text-navigation: #7d7d7d;
   --color-text-hover: #03a9f4;
+  --color-bg-button: #ffffff;
   /* Шрифти */
   --font-primary: "Playfair Display", serif;
   --font-secondary: "Ubuntu", serif;
@@ -15,4 +16,56 @@ body {
   font-size: 14px;
   line-height: 1.35;
   color: var(--color-text-primary);
+}
+
+.container {
+  max-width: 935px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Шапка сайту */
+.header {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.nav-link {
+  color: var(--color-text-navigation);
+}
+.nav-link:hover {
+  color: var(--color-text-hover);
+}
+
+/* Галерея */
+.gallery {
+  padding-bottom: 65px;
+}
+
+.galerry-list {
+  margin-bottom: 95px;
+}
+
+.post-photo {
+  margin-bottom: 60px;
+}
+.post-category {
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  line-height: 1.14;
+  color: var(--color-text-category);
+  display: block;
+  margin-bottom: 30px;
+}
+.post-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.gallery-button {
+  background-color: var(--color-bg-button);
+  padding: 20px 50px;
+  border: 1px solid var(--color-text-primary);
 }

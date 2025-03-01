@@ -10,137 +10,152 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="#">LIFESTYLE</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">PHOTODIARY</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">MUSIC</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">TRAVEL</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#">LIFESTYLE</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PHOTODIARY</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">MUSIC</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">TRAVEL</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main">
       <section class="gallery">
-        <ul class="galerry-list">
-          <li class="galerry-item">
-            <article class="post">
-              <div class="post-photo">
-                <img
-                  class="post-img"
-                  src="./src/images/festival.jpg"
-                  alt="Girl dancing"
-                />
-              </div>
-              <span class="post-category">LIFESTYLE</span>
-              <h2 class="post-title">More than just a music festival</h2>
-              <p class="post-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-          <li class="galerry-item">
-            <article class="post">
-              <div class="post-photo">
-                <img
-                  class="post-img"
-                  src="./src/images/coffee.jpg"
-                  alt="Cup of coffee"
-                />
-              </div>
-              <span class="post-category">LIFESTYLE</span>
-              <h2 class="post-title">Life tastes better with coffee</h2>
-              <p class="post-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-          <li class="galerry-item">
-            <article class="post">
-              <div class="post-photo">
-                <img
-                  class="post-img"
-                  src="./src/images/dream.jpg"
-                  alt="Two girls"
-                />
-              </div>
-              <span class="post-category">PHOTODAIRY</span>
-              <h2 class="post-title">American dream</h2>
-              <p class="post-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-          <li class="galerry-item">
-            <article class="post">
-              <div class="post-photo">
-                <img
-                  class="post-img"
-                  src="./src/images/alps-mountains.jpg"
-                  alt="Man"
-                />
-              </div>
-              <span class="post-category">PHOTODAIRY</span>
-              <h2 class="post-title">A day exploring the Alps</h2>
-              <p class="post-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-          <li class="galerry-item">
-            <article class="post">
-              <div class="post-photo">
-                <img
-                  class="post-img"
-                  src="./src/images/song.jpg"
-                  alt="Girl on the field "
-                />
-              </div>
-              <span class="post-category">LIFESTYLE</span>
-              <h2 class="post-title">Top 10 song for running</h2>
-              <p class="post-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-          <li class="galerry-item">
-            <article class="post">
-              <div class="post-photo">
-                <img
-                  class="post-img"
-                  src="./src/images/day.jpg"
-                  alt="Winter road"
-                />
-              </div>
-              <span class="post-category">LIFESTYLE</span>
-              <h2 class="post-title">Cold winter days</h2>
-              <p class="post-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.
-              </p>
-            </article>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="galerry-list">
+            <li class="galerry-item">
+              <article class="post">
+                <div class="post-photo">
+                  <img
+                    class="post-img"
+                    src="./src/images/festival.jpg"
+                    alt="Girl dancing"
+                  />
+                </div>
+                <span class="post-category">LIFESTYLE</span>
+                <h2 class="post-title">More than just a music festival</h2>
+                <p class="post-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <li class="galerry-item">
+              <article class="post">
+                <div class="post-photo">
+                  <img
+                    class="post-img"
+                    src="./src/images/coffee.jpg"
+                    alt="Cup of coffee"
+                  />
+                </div>
+                <span class="post-category">LIFESTYLE</span>
+                <h2 class="post-title">Life tastes better with coffee</h2>
+                <p class="post-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <li class="galerry-item">
+              <article class="post">
+                <div class="post-photo">
+                  <img
+                    class="post-img"
+                    src="./src/images/dream.jpg"
+                    alt="Two girls"
+                  />
+                </div>
+                <span class="post-category">PHOTODAIRY</span>
+                <h2 class="post-title">American dream</h2>
+                <p class="post-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <li class="galerry-item">
+              <article class="post">
+                <div class="post-photo">
+                  <img
+                    class="post-img"
+                    src="./src/images/alps-mountains.jpg"
+                    alt="Man"
+                  />
+                </div>
+                <span class="post-category">PHOTODAIRY</span>
+                <h2 class="post-title">A day exploring the Alps</h2>
+                <p class="post-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <li class="galerry-item">
+              <article class="post">
+                <div class="post-photo">
+                  <img
+                    class="post-img"
+                    src="./src/images/song.jpg"
+                    alt="Girl on the field "
+                  />
+                </div>
+                <span class="post-category">LIFESTYLE</span>
+                <h2 class="post-title">Top 10 song for running</h2>
+                <p class="post-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+            <li class="galerry-item">
+              <article class="post">
+                <div class="post-photo">
+                  <img
+                    class="post-img"
+                    src="./src/images/day.jpg"
+                    alt="Winter road"
+                  />
+                </div>
+                <span class="post-category">LIFESTYLE</span>
+                <h2 class="post-title">Cold winter days</h2>
+                <p class="post-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
+
         <button class="gallery-button" type="button">Load more</button>
       </section>
     </main>
