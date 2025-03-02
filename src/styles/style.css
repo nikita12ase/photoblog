@@ -32,6 +32,12 @@ body {
   padding-bottom: 90px;
 }
 
+.nav-list {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
 .nav-link {
   color: var(--color-text-navigation);
 }
@@ -46,6 +52,8 @@ body {
 
 .galerry-list {
   margin-bottom: 95px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .post-photo {
